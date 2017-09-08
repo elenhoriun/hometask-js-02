@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	
+</head>
+<body>
+	
+	<script>
+		;(function(){
+
+		var login = prompt("Введите логин:");	
+
+		if (login == "Админ") {
+			var password = prompt("Введите пароль:");
+
+			if (password == "Черный властелин") {
+				alert("Добро пожаловать!");
+			} else if (password == null) {
+				alert("Вход отменен!");
+			} else  {
+				alert("Пароль неверен!");
+			}
+
+		} else if (login == null) {
+			alert("Вход отменен!");
+			} else {
+				alert("Я Вас не знаю!");
+			} 
+
+
+			// Задачи с урока
+	
+		// var number, number1, number2;
+
+		// number1 = Number(prompt("Enter first number"));
+		// number2 = Number(prompt("Enter second number"));
+ 
+		// number = Math.floor(Math.random() * (number2 - number1) + number1);  //(max - min) + min
+		
+		// alert (number);
+
+
+
+
+		// if (a + b < 4) {  
+		// result = 'Мало';
+		// } else {  
+		// result = 'Много';
+		// }
+
+		// result = (a + b < 4) ? 'Мало' : 'Много';
+
+
+	})();
+
+	</script>
+
+	
+</body>
+</html>
